@@ -1,0 +1,119 @@
+已卸载掉 
+1.com.huawei.hwstartupguide安装初始向导 
+2.com.huawei.hifolder精品文件夹
+3.com.huawei.himovie.overseas自带(华为)播放器
+4.com.android.mediacenter 自带(华为)音乐库
+5.com.huawei.weather 华为天气（小挂件）
+6.com.huawei.browser国内浏览器&com.huawei.browserhomepage浏览器首页
+7.com.huawei.hicard华为卡片服务
+8.com.huawei.health华为健康服务
+9.com.huawei.securityserver华为隐私伺服、隐私空间
+             securitymgr(设置里的空间)
+             securitypluginbase(插件里)
+10.com.huawei.powergenie 华为超级省电服务
+11.com.huawei.contacts.sync 联系人同步服务
+
+
+adb shell pm list packages + 指令代码 -d -e -s -3 ""
+~!adb shell pm uninstall --user 0 com.google.android.projection.gearhead谷歌车载驾驶
+~!adb shell pm disable com.google.android.marvin.talkback谷歌回聊服务
+com.huawei.+{
+android.chr HwChrService充电识别管理服务
+android.FloatTasks 侧边浮动窗
+android.hsf 华为全家桶框架基础(service frames)
+android.hwaps 华为APS服务（非关键服务）
+android.hwouc 华为提示系统更新弹窗
+android.instantonline 华为一键热点应用（共享热点）
+android.instantshare 华为机对机共享（下拉菜单里有）
+android.internal.app 内置
+~!android.karaoke 音乐K歌功能
+~!android.calendar  华为日历
+android.launcher 华为启动器
+android.mirrorshare 无线镜像分享功能
+android.overlay.modules.modulemetadata 覆盖模组
+android.projectmenu 系统关键进程
+android.pushagent 华为推送代理进程
+android.thememanager 华为主题
+android.wfdft WLAN连接器
+androidx 系统关键进程
+aod 息屏指纹图标
+appmarket 系统关键@华为应用市场
+arengine.service 扫描AR引擎
+~!assetsync 华为资产同步
+~!assetsyncservice 华为资产同步服务项
+autoinstallapkfrommcc 从MCC里自动安装
+~!bd 华为用户体验改进（设置菜单靠后位置一览）
+behaviorauth 行为授权功能
+bluetooth 系统关键进程蓝牙
+camera 系统关键进程相机
+camerakit.impl 系统关键进程附件
+coauthservice 联合认证服务
+desktop.explorer 系统桌面
+desktop.systemui 系统桌面
+deviceauth 系统关键进程设备验证
+dmsdp Hicar相关服务
+dsdscardmanager 双卡管理器
+featurelayer.featureframework 系统关键进程
+featurelayer.sharedfeature.map 系统关键进程
+fido.uafclient 快速用户身份认证
+hff Hff服务
+hiai 华为智慧AI
+~!hicloud 华为云服务基础（系统设置第一栏显示）
+~!com.huawei.hwid 华为用户账户ID服务（登录云服务）
+~!com.huawei.fans 花粉俱乐部（国内系统有）
+hidisk 华为文件管理器=系统关键进程
+~!hitouch 华为HiTouch
+华为CARD服务相关：HiTouch、HiVision、HiVoice、iconnect智能家居、场景包
+
+hiview 图片属性获取
+hiviewtunnel 图片属性获取组件
+hwasm 华为ASM，可能是系统进程（指纹功能）
+~!hwblockchain 区块链服务
+hwddmp 系统日志
+hwdetectrepair 系统关键进程硬件检测
+hwdockbar EMUI10.1侧边栏格式
+hwMultiScreenShot 截屏服务
+hwpanpayservice 华为pan支付
+hwusbearphoneupdate USB耳机
+iaware 性能自动调度（打游戏用）
+~!iconnect 智能家居链接
+imedia.dolby dolby音效
+ims 华为Image Management Service
+~!intelligent 华为购物情景智能
+~!KoBackup KO备份
+languagedownloader 语言下载工具
+lbs HwLBSService基站定位服务
+livewallpaper.paradise 动态桌面背景图
+magazine 华为锁屏杂志
+~!mmitest 进入工程调试模式入口
+motionservice 划屏手势支持
+msdp 多播路由
+multimedia.audioengine 多媒体音频引擎
+nb.service 数据管理服务
+~!nearby 查看附近
+numberidentity 电话号码识别
+omacp 邮件设置功能
+~!parentcontrol 家长控制
+pcassistant Hisuite连接电脑助手
+permissioncontroller.overlay 权限管理器涵盖
+~!phoneservice 会员服务
+printservice 打印服务
+~!recsys recommended system服务
+~!remotepassword 远程密码
+scanner 相机扫码功能
+screenrecorder 录屏功能
+search 系统设置搜索条功能
+
+smartshot 双击关节识别服务
+synergy 多屏协同驱动
+systemmanager 系统管理
+systemserver 系统伺服
+tmecustomize TME这个东西的用户自定义
+trustagent 华为智能锁屏解锁
+~!vassistant 华为智慧voice语音服务
+videoeditor 视频编辑器
+~!wallet.sdk.walletsdk 华为钱包kit工具
+wifieapsimplmn WiFi相关功能
+wifiprobqeservice WiFi相关功能
+
+}
